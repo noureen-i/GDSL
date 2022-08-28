@@ -1,0 +1,135 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    letter-spacing: 3px;
+}
+
+
+/* element */
+  
+.let_space{
+    letter-spacing: 2px;
+    color : #718a9c
+}
+
+
+.c_grid{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1vmax;
+}
+   
+.grid{
+    display: grid;
+    grid-gap: 1vmax;
+}
+   
+.box2{
+    grid-template-columns: 1fr 1fr;
+}
+  
+.box3{
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+
+/* element */
+
+
+input{
+    padding:1vmax;
+    font-size: 1.3vmax;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+select{
+    padding:1vmax;
+    font-size: 1.3vmax;
+    border: 1px solid #dddddd;
+    outline: none;
+    letter-spacing: 3px;
+}
+
+option{
+    font-size: 1.5vmax;
+    letter-spacing: 3px;
+}
+
+.webscrap{
+  
+  border: 1px solid #718a9c;
+  outline: none;
+  background-color: #718a9c;
+  color: white;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+.webscrap:hover{
+  background-color: white;
+  color: #718a9c
+}
+.button_disable{
+    background-color: white;
+    color: #718a9c
+}
+
+.upload_file{
+  
+  border : 1px solid #718a9c;
+  outline: none;
+  background-color: #718a9c;
+  color: white;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+.upload_file:hover{
+    background-color: white;
+    color: #718a9c
+  }
+
+.title{
+    background-color: #3c9625;
+    color: white;
+  padding: 1vmax;
+}
+.body{
+    background-image: url("bgpic.jpg");
+    background-position: fill;
+}
+
+.table_cont{
+    overflow-x: scroll;
+    width: 70vw;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 3px;
+    background-color:white
+    /* width: 100%; */
+}
+
+td, th {
+   /* border: 1px solid #dddddd; */
+    text-align: center;
+    padding: 1vmax;
+    width: fit-content;
+}
+
+form{
+    margin: 2vmax 5vmax;
+    padding:3vmax;
+}
+
+label{
+    font-size: 1.5vmax;
+}
